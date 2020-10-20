@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-main {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(rgba(54, 30, 65, 0.95), rgb(34, 9, 44)),
+    url(../assets/bg.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  opacity: 1;
+  @apply transition;
+  @apply duration-300;
+  @apply delay-500;
+}
+
+.page-exit {
+  opacity: 0;
+}
+
+.page-exit-active {
+  opacity: 1;
+  @apply transition;
+  @apply duration-300;
+}
