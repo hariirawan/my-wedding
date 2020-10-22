@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         "Dancing-Script": ["Dancing Script", "cursive"],
       },
+      height: {
+        70: "70rem",
+      },
       fontSize: {
         "7xl": "7rem",
         "8xl": "8rem",

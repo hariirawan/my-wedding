@@ -58,9 +58,9 @@ export default function Home(props) {
       </div>
       <Timer />
       <div className="flex justify-center items-center space-x-12  font-Dancing-Script">
-        <span className="text-8xl name ">Hari</span>
-        <span className="text-6xl name ">&</span>
-        <span className="text-8xl name ">Ida</span>
+        <span className="text-6xl md:text-8xl name ">Hari</span>
+        <span className="text-3xl md:text-6xl name ">&</span>
+        <span className="text-6xl md:text-8xl name ">Ikhlas</span>
       </div>
     </div>
   );

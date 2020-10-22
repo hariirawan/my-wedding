@@ -6,10 +6,16 @@ export default function Kutipan(props) {
       <h1 className="font-Dancing-Script">Kutipan</h1>
       <div className="">
         <div className="flex justify-center space-x-6 text-sm">
-          Maha Suci Allah Subhanahu Wa Ta’ala yang menciptakan makhluk-Nya
+          "Dan nikahkanlah orang-orang yang sendirian di antara kamu, dan
+          orang-orang yang layak
           <br />
-          berpasang-pasangan. Ya Allah perkenankan kami menikahkan Putra Putri
-          kami.
+          (menikah) dari hamba sahayamu yang lelkai dan hamba-hamba sahayamu
+          yang perempuan
+          <br />
+          jika mereka miskin Allah akan mengkayakan mereka dengan karunianya.
+          <br />
+          Dan Allah Maha Luas (pemberiannya) dan maha mengetahui." <br />
+          (QS. An Nuur(24):32)
         </div>
       </div>
       <div className="flex justify-center items-center space-x-12  font-Dancing-Script"></div>
