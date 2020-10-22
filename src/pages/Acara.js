@@ -67,14 +67,14 @@ export default function Acara(props) {
           <div className="text-5xl text-pink-600 sec-2">Akad Nikah</div>
           <div className="space-y-1">
             <div className="text-2xl sec-2">Ahad, 25 Oktober 2020</div>
-            <div className="text-sm font-mono sec-2">Pukul 08:30 - Selesai</div>
+            <div className="text-sm font-mono sec-2">Pukul 08:00 - Selesai</div>
           </div>
         </div>
         <div className="flex justify-center flex-col items-center w-64 ">
           <div className="text-5xl text-pink-600 sec-2">Tasyakkuran</div>
           <div className="space-y-1 sec-2">
             <div className="text-2xl sec-2">Ahad, 25 Oktober 2020</div>
-            <div className="text-sm font-mono sec-2">Pukul 08:30 - Selesai</div>
+            <div className="text-sm font-mono sec-2">Pukul 10:00 - Selesai</div>
           </div>
         </div>
       </div>

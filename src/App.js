@@ -33,20 +33,7 @@ export default function App(props) {
           <Switch>
             {routes.map(({ path, Component }) => (
               <Route exact key={path} path={path}>
-                {({ match }) => (
-                  <CSSTransition
-                    in={match != null}
-                    timeout={500}
-                    classNames="page"
-                    unmountOnExit
-                    onExit={() => console.log("hallo")}
-                    onEntering={() => console.log("hallo")}
-                  >
-                    <div className="page">
-                      <Component />
-                    </div>
-                  </CSSTransition>
-                )}
+                <Component />
               </Route>
             ))}
           </Switch>
