@@ -55,7 +55,7 @@ export default function NavigationMobile(props) {
 
   return (
     <div className="px-8 pt-8 w-screen text-white font-Dancing-Script flex justify-between">
-      <h1 className="text-lg brand-mobile ">Wedding</h1>
+      <h1 className="text-lg brand-mobile ">Merarik</h1>
       <ul className=" text-lg flex space-x-4">
         {menus.map((obj, key) => (
           <li key={key} className="nav-mobile">

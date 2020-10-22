@@ -53,9 +53,17 @@ export default function Navigation(props) {
     return () => {};
   }, [tl]);
 
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        ({ coords: { accuracy, latitude, longitude } }) => console.log(accuracy)
+      );
+    }
+  }, []);
+
   return (
     <div className="pl-8 pt-8 w-1/6 space-y-24 text-white font-Dancing-Script">
-      <h1 className="text-5xl brand ">Wedding</h1>
+      <h1 className="text-5xl brand ">Merarik</h1>
       <ul className="space-y-3 text-3xl">
         {menus.map((obj, key) => (
           <li key={key} className="nav-sm">
