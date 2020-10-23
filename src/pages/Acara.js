@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import { TimelineLite } from "gsap/all";
 
-import CSSPlugin from "gsap/CSSPlugin";
-const C = CSSPlugin;
-
 export default function Acara(props) {
   let tl = new TimelineLite();
 

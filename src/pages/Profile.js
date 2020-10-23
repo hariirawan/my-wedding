@@ -54,7 +54,7 @@ export default function Profile(props) {
       </div>
       <div className="flex justify-center items-center   font-Dancing-Script">
         <div className="flex justify-center flex-col items-center  w-64 h-64 ">
-          <div className="sec-2 w-32 h-32 rounded-full bg-pink-700 mb-4 overflow-hidden  border-2 border-pink-600">
+          <div className="sec-2 w-32 h-32 rounded-full bg-pink-700 mb-4  border-2 border-pink-600 overflow-hidden">
             <img src={imagehari} alt="hari-ida.wedding.com" />
           </div>
           <div className="sec-2 text-2xl text-pink-600">Hari Irawan</div>
@@ -63,7 +63,7 @@ export default function Profile(props) {
         </div>
         <div className="w-auto sec-2 ">&</div>
         <div className="flex justify-center flex-col items-center w-64 h-64">
-          <div className="sec-2 w-32 h-32 rounded-full bg-pink-700 border-2 border-pink-600 overflow-hidden  mb-4">
+          <div className="sec-2 w-32 h-32 rounded-full bg-pink-700 border-2 border-pink-600  mb-4 overflow-hidden">
             <img src={imageIda} alt="hari-ida.wedding.com" />
           </div>
           <div className="sec-2 text-2xl text-pink-600">
