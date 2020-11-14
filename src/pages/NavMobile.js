@@ -54,9 +54,9 @@ export default function NavigationMobile(props) {
   }, [tl]);
 
   return (
-    <div className="px-8 pt-8 w-screen text-white font-Dancing-Script flex justify-between">
+    <div className="px-3 space-x-3 pt-8 w-screen text-white font-Dancing-Script flex justify-between">
       <h1 className="text-lg brand-mobile ">Merarik</h1>
-      <ul className=" text-lg flex space-x-4">
+      <ul className=" text-lg flex space-x-3 md:space-x-4">
         {menus.map((obj, key) => (
           <li key={key} className="nav-mobile">
             <NavLink

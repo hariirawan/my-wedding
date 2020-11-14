@@ -37,41 +37,55 @@ export default function Acara(props) {
   }, [tl]);
 
   return (
-    <div className=" space-y-6 ">
+    <div className=" space-y-8 ">
       <div className="flex justify-center space-x-5 font-Dancing-Script">
         <span className="sec-0">Acara</span>
         <span className="sec-0">Pernikahan</span>
       </div>
-      <div className="">
-        <div className="flex justify-center flex-col space-x-6 text-sm">
-          <span className="sec-1">
-            Dengan memohon Rahmat dan Ridho Allah Subhanahu Wa Ta’ala.
+      <div>
+        <div className="flex justify-center  text-center flex-col text-sm">
+          <span className="sec-1 text-xs md:text-sm">
+            Dengan memohon Rahmat dan Ridho Allah SWT.
           </span>
-          <span className="sec-1">
-            Kami bermaksud menyelenggarakan pernikahan, yang Insya Allah akan
-            diselenggarakan.
+          <span className="sec-1 text-xs md:text-sm">
+            Kami bermaksud menyelenggarakan pernikahan,
           </span>
-          <span className="sec-1">
-            Kami bermaksud menyelenggarakan pernikahan Putra Putri kami,
+          <span className="sec-1 text-xs md:text-sm">
+            yang Insya Allah akan diselenggarakan. Kami bermaksud
           </span>
-          <span className="sec-1">
-            yang Insya Allah akan diselenggarakan pada.
+          <span className="sec-1 text-xs md:text-sm">
+            menyelenggarakan pernikahan Putra Putri kami,
+          </span>
+          <span className="sec-1 text-xs md:text-sm">
+            yang Insya Allah akan diselenggarakan pada :
           </span>
         </div>
       </div>
-      <div className="flex justify-center items-center space-x-12  font-Dancing-Script">
-        <div className="flex justify-center flex-col items-center w-64">
-          <div className="text-5xl text-pink-600 sec-2">Akad Nikah</div>
+      <div className="flex justify-center items-center space-x-5 md:space-x-12  font-Dancing-Script ">
+        <div className="flex justify-center flex-col items-center ">
+          <div className="text-2xl md:text-5xl text-pink-600 sec-2">
+            Akad Nikah
+          </div>
           <div className="space-y-1">
-            <div className="text-2xl sec-2">Ahad, 25 Oktober 2020</div>
-            <div className="text-sm font-mono sec-2">Pukul 08:00 - Selesai</div>
+            <div className="text-xs md:text-2xl sec-2">
+              Ahad, 25 Oktober 2020
+            </div>
+            <div className="text-xs md:text-sm font-mono sec-2">
+              Pukul 08:00 - Selesai
+            </div>
           </div>
         </div>
-        <div className="flex justify-center flex-col items-center w-64 ">
-          <div className="text-5xl text-pink-600 sec-2">Tasyakkuran</div>
+        <div className="flex justify-center flex-col items-center">
+          <div className="text-2xl md:text-5xl text-pink-600 sec-2">
+            Tasyakkuran
+          </div>
           <div className="space-y-1 sec-2">
-            <div className="text-2xl sec-2">Ahad, 25 Oktober 2020</div>
-            <div className="text-sm font-mono sec-2">Pukul 10:00 - Selesai</div>
+            <div className="text-xs md:text-2xl sec-2">
+              Ahad, 25 Oktober 2020
+            </div>
+            <div className="text-xs md:text-sm font-mono sec-2">
+              Pukul 10:00 - Selesai
+            </div>
           </div>
         </div>
       </div>

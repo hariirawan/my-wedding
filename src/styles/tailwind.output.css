@@ -10647,6 +10647,10 @@ video {
   font-size: 4rem;
 }
 
+.text-1sm{
+  font-size: 10px;
+}
+
 .text-7xl{
   font-size: 7rem;
 }
@@ -22968,7 +22972,7 @@ video {
           animation: bounce 1s infinite;
 }
 
-.bg-main {
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(rgba(54, 30, 65, 0.95), rgb(34, 9, 44)),
@@ -33051,6 +33055,10 @@ video {
 
   .sm\:text-6xl{
     font-size: 4rem;
+  }
+
+  .sm\:text-1sm{
+    font-size: 10px;
   }
 
   .sm\:text-7xl{
@@ -55365,6 +55373,10 @@ video {
     font-size: 4rem;
   }
 
+  .md\:text-1sm{
+    font-size: 10px;
+  }
+
   .md\:text-7xl{
     font-size: 7rem;
   }
@@ -77677,6 +77689,10 @@ video {
     font-size: 4rem;
   }
 
+  .lg\:text-1sm{
+    font-size: 10px;
+  }
+
   .lg\:text-7xl{
     font-size: 7rem;
   }
@@ -99987,6 +100003,10 @@ video {
 
   .xl\:text-6xl{
     font-size: 4rem;
+  }
+
+  .xl\:text-1sm{
+    font-size: 10px;
   }
 
   .xl\:text-7xl{

@@ -4,7 +4,7 @@ import { TimelineLite, Power3 } from "gsap/all";
 const Box = ({ number, text }) => {
   return (
     <div className="box ">
-      <div className="w-20 h-20 flex  items-center justify-center bg-white rounded-lg text-center text-black">
+      <div className="px-3 flex  items-center justify-center bg-white rounded-lg text-center text-black">
         <div className="text-pink-600">{number}</div>
       </div>
       <div className="font-Dancing-Script text-lg mt-1 text-pink-600">
@@ -51,16 +51,27 @@ export default function Home(props) {
   }, [tl]);
 
   return (
-    <div className=" space-y-16 ">
-      <div className="flex justify-center space-x-5 font-Dancing-Script">
-        <div className="title1">Menuju </div>
-        <div className="title1">Pernikahan</div>
+    <div className="space-y-12">
+      <div className=" space-y-5 md:space-y-10 ">
+        <div className="flex justify-center space-x-5 font-Dancing-Script">
+          <div className="title1">Menuju </div>
+          <div className="title1">Pernikahan</div>
+        </div>
+        <Timer />
+        <div className="flex justify-center items-center space-x-5 md:space-x-12  font-Dancing-Script">
+          <span className="text-4xl md:text-8xl name ">Hari</span>
+          <span className="text-3xl md:text-6xl name ">&</span>
+          <span className="text-4xl md:text-8xl name ">Ikhlas</span>
+        </div>
       </div>
-      <Timer />
-      <div className="flex justify-center items-center space-x-12  font-Dancing-Script">
-        <span className="text-6xl md:text-8xl name ">Hari</span>
-        <span className="text-3xl md:text-6xl name ">&</span>
-        <span className="text-6xl md:text-8xl name ">Ikhlas</span>
+      <div className="flex flex-col justify-center items-center space-y-2 md:mt-0 pt-20 md:pt-0 ">
+        <div className="text-lg font-Dancing-Script">Protokol Kesehatan</div>
+        <div className="text-sm font-serif bg-pink-700 w-24 py-1 rounded-lg">
+          Covid-19
+        </div>
+        <div className="text-lg font-Dancing-Script">
+          Jangan Lupa Pakai Masker
+        </div>
       </div>
     </div>
   );
@@ -74,7 +85,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Oct 26, 2020 00:00:00").getTime();
+    const countdownDate = new Date("Oct 25, 2020 08:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -104,7 +115,7 @@ const Timer = () => {
 
   return (
     <div>
-      <div className="flex justify-center space-x-6">
+      <div className="flex justify-center space-x-4 md:space-x-6">
         <Box number={timerDays} text="Hari" />
         <Box number={timerHours} text="Jam" />
         <Box number={timerMinutes} text="Menit" />

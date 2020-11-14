@@ -3,7 +3,10 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
+import CSSPlugin from "gsap/CSSPlugin";
+
 import "./styles/tailwind.output.css";
+const c = CSSPlugin;
 
 ReactDOM.render(
   <React.StrictMode>

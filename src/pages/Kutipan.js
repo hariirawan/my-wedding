@@ -29,8 +29,8 @@ export default function Kutipan(props) {
   return (
     <div className=" space-y-6 ">
       <h1 className=" span-title font-Dancing-Script">Kutipan</h1>
-      <div className="">
-        <div className="flex flex-col justify-center space-x-6 text-sm">
+      <div className="text-center">
+        <div className="flex flex-col justify-center space-x-6 text-sm px-10 md:px-0">
           <span className="span-1">
             "Dan nikahkanlah orang-orang yang sendirian di antara kamu, dan
             orang-orang yang layak
