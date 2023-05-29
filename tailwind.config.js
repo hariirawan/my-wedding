@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       colors: {
         "main-color": "#260C31",
+        "box-color": "#9E4784",
       },
       fontFamily: {
         "Dancing-Script": ["Dancing Script", "cursive"],
@@ -29,6 +30,9 @@ module.exports = {
         "10xl": "10rem",
         "11xl": "11rem",
         "12xl": "12rem",
+      },
+      inset: {
+        "20px": "20px",
       },
     },
   },

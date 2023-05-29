@@ -27,25 +27,18 @@ export default function Kutipan(props) {
   }, [tl]);
 
   return (
-    <div className=" space-y-6 ">
+    <div className="space-y-6">
       <h1 className=" span-title font-Dancing-Script">Kutipan</h1>
       <div className="text-center">
         <div className="flex flex-col justify-center space-x-6 text-sm px-10 md:px-0">
-          <span className="span-1">
-            "Dan nikahkanlah orang-orang yang sendirian di antara kamu, dan
-            orang-orang yang layak
+          <span className="span-1 max-w-md">
+            "Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+            pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
+            dan merasa tenteram kepadanya, Dan Dia menjadikan diantaramu rasa
+            kasih dan sayang. Sungguh, pada yang demikian itu benar-benar
+            terdapat tanda-tanda (Kebesaran Allah) bagi kaum yang berfikir "
           </span>
-          <span className="span-1">
-            (menikah) dari hamba sahayamu yang lelkai dan hamba-hamba sahayamu
-            yang perempuan
-          </span>
-          <span className="span-1">
-            jika mereka miskin Allah akan mengkayakan mereka dengan karunianya.
-          </span>
-          <span className="span-1">
-            Dan Allah Maha Luas (pemberiannya) dan maha mengetahui."
-          </span>
-          <span className="span-1">(QS. An Nuur(24):32)</span>
+          <span className="span-1">(QS. Ar-Rum:21)</span>
         </div>
       </div>
       <div className="flex justify-center items-center space-x-12  font-Dancing-Script"></div>

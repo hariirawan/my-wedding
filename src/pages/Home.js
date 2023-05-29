@@ -4,12 +4,10 @@ import { TimelineLite, Power3 } from "gsap/all";
 const Box = ({ number, text }) => {
   return (
     <div className="box ">
-      <div className="px-3 flex  items-center justify-center bg-white rounded-lg text-center text-black">
-        <div className="text-pink-600">{number}</div>
+      <div className="px-3 flex  items-center justify-center bg-orange-500 rounded-lg text-center text-black">
+        <div className="text-white">{number}</div>
       </div>
-      <div className="font-Dancing-Script text-lg mt-1 text-pink-600">
-        {text}
-      </div>
+      <div className="font-Dancing-Script text-lg mt-1 text-white">{text}</div>
     </div>
   );
 };
@@ -58,19 +56,10 @@ export default function Home(props) {
           <div className="title1">Pernikahan</div>
         </div>
         <Timer />
-        <div className="flex justify-center items-center space-x-5 md:space-x-12  font-Dancing-Script">
-          <span className="text-4xl md:text-8xl name ">Hari</span>
-          <span className="text-3xl md:text-6xl name ">&</span>
-          <span className="text-4xl md:text-8xl name ">Ikhlas</span>
-        </div>
-      </div>
-      <div className="flex flex-col justify-center items-center space-y-2 md:mt-0 pt-20 md:pt-0 ">
-        <div className="text-lg font-Dancing-Script">Protokol Kesehatan</div>
-        <div className="text-sm font-serif bg-pink-700 w-24 py-1 rounded-lg">
-          Covid-19
-        </div>
-        <div className="text-lg font-Dancing-Script">
-          Jangan Lupa Pakai Masker
+        <div className="flex flex-col md:flex-row justify-center items-center space-x-5 md:space-x-12  font-Dancing-Script">
+          <div className="text-6xl md:text-8xl name ">Yusuf</div>
+          <div className="text-5xl md:text-6xl name ">&</div>
+          <div className="text-6xl md:text-8xl name ">Amrina</div>
         </div>
       </div>
     </div>
@@ -85,7 +74,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Oct 25, 2020 08:00:00").getTime();
+    const countdownDate = new Date("2023-05-07T10:10:10+07:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Home from "./pages/Home";
 import { Route, Switch } from "react-router-dom";
 import Profile from "./pages/Profile";
@@ -8,6 +8,7 @@ import Acara from "./pages/Acara";
 import Navigation from "./pages/Nav";
 import Maps from "./pages/Maps";
 import NavigationMobile from "./pages/NavMobile";
+import youarealwayswithme from "./assets/you-are-always-with-me-piano-version-15841.mp3";
 
 const routes = [
   { path: "/", name: "home", Component: Home },
@@ -18,18 +19,23 @@ const routes = [
 ];
 
 export default function App(props) {
+  useEffect(() => {
+    const audioEl = document.getElementsByClassName("audio-element")[0];
+    document.addEventListener("click", () => audioEl?.play?.());
+  }, []);
+
   return (
-    <div className="h-screen w-screen bg-main relative">
-      <div className="md:flex item-center">
-        <div className="hidden md:block">
+    <div className="h-screen w-screen bg-main relative pt-10">
+      <div className=" md:flex item-center md:h-screen">
+        <div className="hidden md:block pt-10">
           <Navigation />
         </div>
-        <div className="mb-20 md:hidden">
+        <div className="md:hidden fixed left-0 right-0 bottom-0">
           <NavigationMobile />
         </div>
         <Route
           render={({ location }) => (
-            <div className=" flex-grow flex justify-center items-center text-center text-white  text-4xl h-auto md:h-screen">
+            <div className=" flex-grow flex justify-center items-center text-center text-white  text-4xl">
               <Switch location={location}>
                 {routes.map(({ path, Component }) => (
                   <Route exact key={path} path={path}>
@@ -41,6 +47,9 @@ export default function App(props) {
           )}
         />
       </div>
+      <audio className="audio-element" autoPlay loop>
+        <source src={youarealwayswithme}></source>
+      </audio>
     </div>
   );
 }

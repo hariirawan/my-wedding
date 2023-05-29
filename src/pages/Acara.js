@@ -61,30 +61,30 @@ export default function Acara(props) {
           </span>
         </div>
       </div>
-      <div className="flex justify-center items-center space-x-5 md:space-x-12  font-Dancing-Script ">
-        <div className="flex justify-center flex-col items-center ">
-          <div className="text-2xl md:text-5xl text-pink-600 sec-2">
+      <div className="flex flex-col md:flex-row justify-center items-center md:space-x-12  font-Dancing-Script ">
+        <div className="flex justify-center flex-col items-center  mb-4 md:mb-0">
+          <div className="text-2xl md:text-5xl text-orange-400 sec-2 ">
             Akad Nikah
           </div>
           <div className="space-y-1">
-            <div className="text-xs md:text-2xl sec-2">
-              Ahad, 25 Oktober 2020
+            <div className="text-sm md:text-2xl sec-2 font-mono">
+              Ahad, 07 Mei 2023
             </div>
-            <div className="text-xs md:text-sm font-mono sec-2">
-              Pukul 08:00 - Selesai
+            <div className="text-sm md:text-sm font-mono sec-2">
+              Pukul 08:00 - 10:00 WITA
             </div>
           </div>
         </div>
         <div className="flex justify-center flex-col items-center">
-          <div className="text-2xl md:text-5xl text-pink-600 sec-2">
-            Tasyakkuran
+          <div className="text-2xl md:text-5xl text-orange-400 sec-2">
+            Resepsi
           </div>
           <div className="space-y-1 sec-2">
-            <div className="text-xs md:text-2xl sec-2">
-              Ahad, 25 Oktober 2020
+            <div className="text-sm md:text-2xl sec-2 font-mono">
+              Ahad, 07 Mei 2023
             </div>
-            <div className="text-xs md:text-sm font-mono sec-2">
-              Pukul 10:00 - Selesai
+            <div className="text-sm md:text-sm font-mono sec-2">
+              Pukul 11:00 - 13:00 WITA
             </div>
           </div>
         </div>

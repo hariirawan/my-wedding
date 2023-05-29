@@ -63,7 +63,7 @@ export default function Navigation(props) {
 
   return (
     <div className="pl-8 pt-8 w-1/6 space-y-24 text-white font-Dancing-Script">
-      <h1 className="text-5xl brand ">Merarik</h1>
+      <h1 className="text-5xl brand ">Invitation</h1>
       <ul className="space-y-3 text-3xl">
         {menus.map((obj, key) => (
           <li key={key} className="nav-sm">
@@ -72,7 +72,7 @@ export default function Navigation(props) {
               exact
               activeStyle={{
                 fontWeight: "bold",
-                color: "#d53f8c",
+                color: "#ed8936",
               }}
             >
               {obj.name}

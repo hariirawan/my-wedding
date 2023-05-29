@@ -6,8 +6,8 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(rgba(54, 30, 65, 0.95), rgb(34, 9, 44)),
-    url(../assets/bgsmodge.jpg) no-repeat center fixed;
+  background: radial-gradient(circle, hsla(235, 35%, 41%, .8) 0%, hsla(222, 77%, 33%, 1) 100%),
+    url(../assets/background.jpeg) no-repeat content-box fixed;
   background-size: cover;
 }
 
